@@ -1,0 +1,69 @@
+Piazza
+access code: give us chocolate or give us death
+mtgray@ucsc.edu
+mrhea@ucsc.edu
+jraizes@ucsc.edu
+ekwest@ucsc.edu
+euchou@ucsc.edu
+
+week 1   :proofs & secret sharing
+week 2&3 :number theory
+week 4&5 :crypto
+week 6&7 :info theory & compression
+week 8   :error correction
+week 9&10:??sesh??
+
+friday: intro to material
+weekend: reading
+monday: discussion
+wednesday: writeup
+
+direct proof
+if x is even prove that x^2 is even?
+even number is defined by 2*n
+odd  number is defined by 2*n + 1
+
+generic contrapositive proof
+a->b
+<->
+!b->!a
+
+a->b
+b\a 0 1
+0   1 0
+1   1 1
+
+!b->!a
+b\a 0 1
+0   1 0
+1   1 1
+
+if x is odd then x^2 is odd
+
+x = 2n+1
+x^2 = 4n+1
+=(2n^2+2n)+1
+2n(2n+1)
+
+contradiction proof
+prove that sqrt(2) is irrational
+you want to try to prove that sqrt(2) is rational
+
+sqrt(2) = a/b
+assume a and b are both integers a is even and b is odd
+2 = a^2/b^2
+2b^2 = a^2 thus a is even because 2b is even so a must be even
+a^2 = 4b^2
+b^2 = 2y^2
+
+a=2y
+a^2 is 4y^2
+
+assume
+a^2 is even, a is even
+therefore
+a^2 = 4y^2 for some
+2b^2=4y^2, b^2=2y^2
+b^2 is even, but
+b^2 must be odd,
+because a^2 is even, for sqrt(2) to be rational, either a^2 or b^2 must be odd
