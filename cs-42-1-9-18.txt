@@ -1,0 +1,57 @@
+Piazza
+access code: give us chocolate or give us death
+matthew gray   mtgray@ucsc.edu
+matthew rhea   mrhea@ucsc.edu
+justin raizes jraizes@ucsc.edu
+even west     etwest@ucsc.edu
+eugene chou   euchou@ucsc.edu
+
+constructive proof
+  find an example that shows your proof
+
+  Prove there are two irrational numbers a,b such that a^b is rational
+  a = sqrt(2)
+  b = log2(9)
+  sqrt(2)^log2(9)
+
+
+non constructive proof
+  proving without and example
+
+  a = sqrt(2)
+  b = sqrt(2)
+
+  a^2 = (a^2)^a^2 dont know if rational or not, assume irrational
+  set a = a^2
+  a^b = ((sqrt(2))^sqrt(2))^sqrt(2) = sqrt(2)^2 = 2
+
+
+Prove if x^2-6x+5 is odd then x is even
+  contrapositive
+    assume x is odd
+    x = 2n-1
+    (2n-1)^2 - 6(2n-1) + 5
+    4n^2 - 8n
+    2(n^2 -4n)
+
+  Direct
+    x^2-6x+5 = 2n+1
+    x^2 = 2(6x-2)
+    x^2 = 2(something) therefore its even
+
+  Inverse proof(doesn't prove what we want)
+    assume x^2-6x+5 is even
+    x^2-6x+5 = 2n
+    x^2-6x = 2n-5
+    x^2 = 2n-5-6x
+    x^2 = 2(n-3-3x+2)+1
+
+
+
+Prove (aUb)NC = (aNc)U(bNc)
+
+explain it in english and it just works
+
+for some xE(aUb)Nc
+  xec
+  xea and xeb
