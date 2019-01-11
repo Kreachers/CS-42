@@ -1,10 +1,13 @@
+Jan 7 2019
+CMPS 42A SDS: Survey of Applied Computational Science
+Matthew Gray   mtgray@ucsc.edu
+Matthew Rhea   mrhea@ucsc.edu
+Justin Raizes  jraizes@ucsc.edu
+Even West      etwest@ucsc.edu
+Eugene Chou    euchou@ucsc.edu
+
 Piazza
 access code: give us chocolate or give us death
-mtgray@ucsc.edu
-mrhea@ucsc.edu
-jraizes@ucsc.edu
-ekwest@ucsc.edu
-euchou@ucsc.edu
 
 week 1   :proofs & secret sharing
 week 2&3 :number theory
