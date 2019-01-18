@@ -92,6 +92,6 @@ example
 
 Extended Euclidean algorithm
 
-Let a,b be integers then:
+Let a,b be positive integers then:
       au+bv=gcd(a,b)
 always has a solution in the integers u and v

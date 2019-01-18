@@ -1,0 +1,100 @@
+Jan 9 2019
+SDS: Survey of Applied Computational Science
+Matthew Gray   mtgray@ucsc.edu
+Matthew Rhea   mrhea@ucsc.edu
+Justin Raizes  jraizes@ucsc.edu
+Even West      etwest@ucsc.edu
+Eugene Chou    euchou@ucsc.edu
+
+Piazza
+access code: give us chocolate or give us death
+
+Extended Euclidean algorithm
+
+Let a,b be positive integers then:
+      au+bv=gcd(a,b)
+always has a solution in the integers u and v
+
+Proof
+a0=b0q1+r1
+solve for r1
+r1=a0-b0q1
+
+b0=r1q2+r2
+b0=(a0-b0q1)q2+r2
+r2=b0-(a0-b0q)q2 == b0-a0q2+b0q1q2
+
+
+r2=-a0q2+b0(q1q2+1)
+      u    v
+
+at each  step, ri gets smaller until it eventually reaches 0 at rt
+and our greatest common divisor is at that point
+
+
+Prime numbers
+
+P is prime if the only divisors of D are 1 and D
+
+P/(a*b) implies P divides by at least one of a or b
+
+Proof
+Let g=gcd(a,p), this means that g=1 or g=p
+
+case 1
+g=p implies p/q
+
+case 2
+g=1 implies 1=au+pv
+multiplay by b
+b=abu+pbv
+b=xpu+pbv
+b=p(xu+bv)
+
+therefore p divides b
+
+
+claim
+If p/a1a2...an, then p divides some a
+
+Proof
+knowing p/ab the np divides by either a or b
+
+we can separates a1a2...an with parenthesis
+p/a1(a2a3...an)
+if p does not divide by a1 then pull out the next a
+p/a2(a1a3....an)
+
+
+fundamental theoren of arthimetic
+Let a>=2 be an integer. then, a can be factors as a unique product of prime numbers
+
+    a=p1^e1*p2^e2....*pr^er
+
+
+two things to prove
+(i)existence
+(ii)uniqueness
+
+Proof
+
+step 1 existence
+let n=2, so it exists because 2 is Prime
+
+let n >= 2
+If n is prime then n is Prime
+otherwise, n is a composite number
+n=a*b,where 1<a,b<n
+
+step 2 uniqueness
+a=p1^e1*p2^e2...ps^es = q1^e1*q2^e2...qt^et where pi and qs are all primes, not necessarily distinct and s!=t necessarily
+
+p1/a implies p1/q1^a1*q2^a2...q2^a2 implies p1  divides by at least one of qi
+
+rearranging if necessary p1/q1 implies p1=q1
+
+so p1 and q1 cancel out from the a= equations above
+and we repeat
+we eventually get to 1=(qt+qs)*(qt+qs+1)
+we know s=t
+1=1
